@@ -1,0 +1,9 @@
+{
+  "name": "metrOnePage (Vite + React)",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "npm ci",
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": { "label": "Vite Dev Server", "onAutoForward": "openBrowser" }
+  }
+}
